@@ -50,17 +50,23 @@ The guest laptop was tested against an internal staff endpoint. The connection w
 
 ## 10. VoIP Testing
 
-The two IP phones were successfully registered with the Cisco Call Manager Express service on R2-CME.
+The VoIP implementation was tested using the two configured IP phones.
 
-- PHONE-FIRST: Extension 1001
-- PHONE-GROUND: Extension 1002
+- PHONE-FIRST was registered with extension 1001.
+- PHONE-GROUND was registered with extension 1002.
+- Both phones successfully registered with the R2-CME router.
+- A test call from extension 1001 to extension 1002 was completed successfully.
 
-A test call from extension 1001 to extension 1002 was successfully completed, confirming VoIP call functionality.
+The successful call confirmed that the Voice VLAN, DHCP voice configuration, CME registration and IP phone connectivity were functioning correctly.
 
-## 11. Network Management Testing
+## 11. Management Connectivity Testing
 
-Management connectivity was tested between the network devices using VLAN 110. The management interfaces on SW1-CORE, SW2-GROUND and SW3-FIRST successfully communicated with the R1 management gateway.
+Management connectivity was tested using the Network Management VLAN (VLAN 110).
 
-## 12. Final Verification
+Connectivity between R1 and the management interfaces of SW1, SW2 and SW3 was verified successfully. This confirmed that the switches could communicate through the designated management network.
 
-The final implementation was tested in Packet Tracer after configuration and troubleshooting. The tests confirmed VLAN operation, trunking, DHCP, Router-on-a-Stick inter-VLAN routing, printer connectivity, DNS and Web services, guest wireless access control and VoIP functionality.
+## 12. Final Testing Summary
+
+The Milestone 2 network was tested after implementation. VLANs, trunk links, Router-on-a-Stick routing, DHCP, inter-VLAN connectivity, printer connectivity, DNS, web services, Guest network isolation, VoIP and management connectivity were verified.
+
+The testing confirmed that the implemented network functions according to the Milestone 2 requirements and the documented design.
