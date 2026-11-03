@@ -138,3 +138,14 @@ The Milestone 2 implementation was tested after configuration.
 The testing confirmed the operation of the VLANs, trunk links, Router-on-a-Stick routing, DHCP, inter-VLAN connectivity, printers, DNS, Web Server, Guest network isolation, VoIP and management connectivity.
 
 The final Packet Tracer implementation is documented through the accompanying topology and testing evidence.
+
+
+
+## Project Achievement – Number 1
+
+I am proud to have achieved **1st place** in the CMPG325 Network Design and Implementation Project.
+
+This achievement recognises the planning, design, implementation, configuration, testing and documentation of the network infrastructure.
+REFERENCE :Prof. Francis L Lugayizi
+
+**Evidence:** `13_Project_Ranking_Number_1.png`
